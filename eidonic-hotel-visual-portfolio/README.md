@@ -17,10 +17,10 @@ The result is a unified visual language that feels intentional rather than rando
 ### Selected Assets
 
 ![Asset Title](images/hotel_lobby_final.png)  
-**Hotel Lobby (Final)** — Refined dramatic lighting, deep shadows, and surreal color grading for maximum unease while keeping readability.
+**Hotel Lobby (Final)**  Refined dramatic lighting, deep shadows, and surreal color grading for maximum unease while keeping readability.
 
 ![Asset Title](images/hotel_lobby_iteration_3.png)  
-**Iteration 3 → Final** — Improved focal point, removed AI artifacts, enhanced atmospheric fog and color temperature.
+**Iteration 3 → Final**  Improved focal point, removed AI artifacts, enhanced atmospheric fog and color temperature.
 
 *(Repeat for key scenes: corridors, puzzles, character close-ups, UI elements, environmental storytelling shots, etc.)*
 
