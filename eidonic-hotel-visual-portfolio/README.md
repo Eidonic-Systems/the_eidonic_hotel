@@ -28,7 +28,7 @@ Every visual asset in **Eidonic Hotel** starts as generative AI and is refined t
 **Altar Room** Powerful ritual composition with heavy volumetric fog and stone textures. The body on the slab creates instant narrative tension.
 
 ![First Room Demon](First_Room_Demon.jpg)  
-**First Room Demon Encounter** Excellent use of blood splatter and framing. The multi-armed figure over the woman delivers strong horror while keeping the scene readable.
+**First Room Demon Encounter** Excellent use of blood splatter and framing. The demonic figure over the woman delivers strong horror while keeping the scene readable.
 
 ![Pump House Puzzle](Pump_House_Puzzle.jpg)  
 **Pump House Puzzle** Clean mechanical UI with glowing pipes and gauges. Great example of functional + atmospheric puzzle design.
