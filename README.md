@@ -1,4 +1,4 @@
-![Font Entrance](Font_Entrance.jpg)  
+![Eidonic Hotel](Title.jpg)
 # 🏨 Eidonic Hotel
 
 > *A surreal cosmic horror point & click adventure*  
