@@ -1,4 +1,4 @@
-# Eidonic Hotel — Visual Portfolio
+# Eidonic Hotel:  Visual Portfolio
 
 **AI-Generated + Human-Refined Visual Assets for a Surreal Cosmic Horror Point-and-Click Game**
 
