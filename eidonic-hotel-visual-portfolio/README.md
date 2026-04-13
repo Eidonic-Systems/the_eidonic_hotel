@@ -1,4 +1,4 @@
-# Eidonic Hotel — Visual Portfolio
+# Eidonic Hotel | Visual Portfolio
 
 **AI-Generated + Human-Refined Visual Assets for a Surreal Horror Point-and-Click Game**
 
@@ -7,18 +7,14 @@ This portfolio showcases my hands-on process of creating every visual asset for 
 This work directly demonstrates the skills required for xAI’s Image Tutor role: prompt engineering, visual critique, composition refinement, lighting and color control, mood consistency, and turning raw AI generations into cohesive, tasteful final assets.
 
 ### My Visual Workflow
-1. **Generative Exploration** — Start with strong base prompts focused on mood, composition, and surreal horror tone.
-2. **Critical Iteration** — Analyze each output for composition, lighting, color harmony, focal points, and narrative clarity. Make small, intentional prompt changes and regenerate.
-3. **Photoshop Refinement** — Hand-craft details, adjust lighting, enhance contrast, fix artifacts, and ensure visual consistency across the entire game world.
-4. **Integration Check** — Verify the asset works in-game (Godot 4) and supports storytelling and player immersion.
+1. **Generative Exploration** Start with strong base prompts focused on mood, composition, and surreal horror tone.
+2. **Critical Iteration** Analyze each output for composition, lighting, color harmony, focal points, and narrative clarity. Make small, intentional prompt changes and regenerate.
+3. **Photoshop Refinement** Hand-craft details, adjust lighting, enhance contrast, fix artifacts, and ensure visual consistency across the entire game world.
+4. **Integration Check** Verify the asset works in-game (Godot 4) and supports storytelling and player immersion.
 
 The result is a unified visual language that feels intentional rather than random, exactly the kind of refinement Grok’s image generation benefits from.
 
 ### Selected Assets
-
-*(Screenshots will be added here as I play through the game — expect 12–15 high-quality images with detailed before/after or iteration notes)*
-
-**Example layout once images are uploaded:**
 
 ![Asset Title](images/hotel_lobby_final.png)  
 **Hotel Lobby (Final)** — Refined dramatic lighting, deep shadows, and surreal color grading for maximum unease while keeping readability.
