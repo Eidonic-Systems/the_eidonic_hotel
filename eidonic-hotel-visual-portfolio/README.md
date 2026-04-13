@@ -12,10 +12,10 @@ Every visual asset in **Eidonic Hotel** starts as generative AI and is refined t
 
 ### Selected Assets
 
-![Font Entrance](Font_Entrance.jpg)  
+![Front Entrance](Front_Entrance.jpg)  
 **Hotel Entrance** Strong symmetrical composition with dramatic warm/cool lighting contrast. The central robot figure creates immediate unease while the ornate chairs ground the scene.
 
-![Front Desk](Font_Desk_Bell.jpg)  
+![Front Desk](Front_Desk_Bell.jpg)  
 **Front Desk** Rich gold and red color palette with perfect atmospheric haze. The spider-like robot and elderly staff create a perfect uncanny welcome moment.
 
 ![Deep Hallway](Deep_Hallway.jpg)  
