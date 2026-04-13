@@ -1,4 +1,4 @@
-![Eidonic Hotel](Title.jpg)
+![Eidonic Hotel](eidonic-hotel-visual-portfolio/Title.jpg)
 # 🏨 Eidonic Hotel
 
 > *A surreal cosmic horror point & click adventure*  
