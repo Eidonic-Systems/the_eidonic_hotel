@@ -43,11 +43,9 @@ Every visual asset in **Eidonic Hotel** starts as generative AI and is refined t
 **Lab Specimen Window** Creepy green bioluminescent glow against dark industrial pipes. Excellent contrast and detail work on the specimen jars.
 
 ### Tools & Process
-- **Generation**: Grok Imagine / Flux / local models  
+- **Generation**: Grok Imagine / Flux / various other models / local models  
 - **Refinement**: Adobe Photoshop (color grading, detail work, artifact removal)  
 - **Engine**: Godot 4 (real-time testing of every asset)  
-
-This is a living portfolio. I’ll keep adding new scenes as I progress through the game.
 
 **Related Work**  
 Eidonic Core (governed visual manifestation layers): https://github.com/Eidonic-Systems/eidonic-core
