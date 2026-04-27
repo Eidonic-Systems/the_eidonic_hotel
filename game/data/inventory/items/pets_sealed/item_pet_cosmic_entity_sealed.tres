@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://dr753dfj1ox0u"]
+
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_hem6f"]
+[ext_resource type="Texture2D" uid="uid://bjtll5bn7ijld" path="res://game/characters/pets/cosmic_entity/cosmic_entity.png" id="1_n8vf1"]
+
+[resource]
+script = ExtResource("1_hem6f")
+item_icon = ExtResource("1_n8vf1")
+look_text = "A Cosmic Entity sealed in a jar!"
+open_text = "It will not open that way."
+close_text = "It is already closed."
+push_text = "No."
+pull_text = "Nope."
+use_text = "With?"
+eat_text = "Not a good idea to eat a Cosmic Entity!"
+consume_on_use = true
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
