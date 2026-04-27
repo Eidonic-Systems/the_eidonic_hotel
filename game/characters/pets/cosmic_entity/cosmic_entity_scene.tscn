@@ -1,0 +1,162 @@
+[gd_scene load_steps=9 format=3 uid="uid://b5dk82rhwcp1m"]
+
+[ext_resource type="Texture2D" uid="uid://c7twkt4fggpvi" path="res://game/textures/cosmic/nebula.png" id="1_lffnt"]
+[ext_resource type="Texture2D" uid="uid://dsda8fettv48t" path="res://game/characters/pets/cosmic_entity/cosmic_entity_out.png" id="2_5f0yu"]
+[ext_resource type="Script" uid="uid://46hdio4pbjh" path="res://game/scripts/movement/sway_pivot.gd" id="3_eha42"]
+[ext_resource type="Texture2D" uid="uid://87lkf51tmqdv" path="res://game/lighting/Glow7.png" id="4_x5a8h"]
+[ext_resource type="Script" uid="uid://bl0avp3p734uq" path="res://game/scripts/lights/light_flicker_2d.gd" id="5_o0eah"]
+[ext_resource type="Texture2D" uid="uid://2l0fxqmsuaw5" path="res://game/lighting/Glow3.png" id="6_3t0bd"]
+[ext_resource type="Texture2D" uid="uid://di7pt1pndb5jy" path="res://game/lighting/Glow5.png" id="7_jqr87"]
+[ext_resource type="Texture2D" uid="uid://b4qr07pkuggtc" path="res://game/lighting/Glow4.png" id="8_y3y2i"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CosmicMainView" type="ColorRect" parent="."]
+light_mask = 2
+visibility_layer = 6
+z_index = 2
+offset_right = 2560.0
+offset_bottom = 1440.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="CosmicMainView"]
+light_mask = 2
+visibility_layer = 2
+position = Vector2(1280, 720)
+scale = Vector2(1.0666666, 1.070632)
+texture = ExtResource("1_lffnt")
+
+[node name="CosmicEntityPet2" type="TextureButton" parent="CosmicMainView/Sprite2D"]
+light_mask = 4
+visibility_layer = 4
+offset_left = 721.87524
+offset_top = 235.18225
+offset_right = 1116.8752
+offset_bottom = 609.18225
+rotation = -0.0073340717
+texture_normal = ExtResource("2_5f0yu")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("3_eha42")
+sway_degrees = 0.1
+sway_speed = 0.1
+sway_phase_offset = 0.0
+bob_speed = 0.5
+metadata/_edit_use_anchors_ = true
+
+[node name="PointLight2D" type="PointLight2D" parent="CosmicMainView/Sprite2D/CosmicEntityPet2"]
+position = Vector2(196.00003, 113.99998)
+scale = Vector2(0.2477083, 0.28865433)
+color = Color(1, 0.95686275, 0, 1)
+texture = ExtResource("4_x5a8h")
+script = ExtResource("5_o0eah")
+use_current_as_base = false
+candle_min_energy = 0.5
+candle_max_energy = 2.0
+candle_lerp_speed = 20.0
+short_max_energy = 1.5
+short_lerp_speed = 25.0
+allow_blackouts = false
+
+[node name="PointLight2D2" type="PointLight2D" parent="CosmicMainView/Sprite2D/CosmicEntityPet2"]
+position = Vector2(281, 253.50002)
+scale = Vector2(0.17, 0.0961111)
+color = Color(1, 0, 1, 1)
+texture = ExtResource("6_3t0bd")
+script = ExtResource("5_o0eah")
+use_current_as_base = false
+candle_min_energy = 0.5
+candle_max_energy = 1.5
+candle_lerp_speed = 25.0
+short_max_energy = 1.5
+short_lerp_speed = 35.0
+allow_blackouts = false
+
+[node name="PointLight2D5" type="PointLight2D" parent="CosmicMainView/Sprite2D/CosmicEntityPet2"]
+position = Vector2(68.999985, 198.00002)
+rotation = 0.49037844
+scale = Vector2(0.099444464, 0.053055547)
+color = Color(1, 0, 1, 1)
+texture = ExtResource("6_3t0bd")
+script = ExtResource("5_o0eah")
+use_current_as_base = false
+candle_min_energy = 0.5
+candle_max_energy = 1.5
+candle_lerp_speed = 25.0
+short_max_energy = 1.5
+short_lerp_speed = 35.0
+allow_blackouts = false
+
+[node name="PointLight2D3" type="PointLight2D" parent="CosmicMainView/Sprite2D/CosmicEntityPet2"]
+position = Vector2(82.99998, 125)
+scale = Vector2(0.122777775, 0.091666676)
+color = Color(1, 0, 0, 1)
+texture = ExtResource("6_3t0bd")
+script = ExtResource("5_o0eah")
+mode = "ShortOut"
+use_current_as_base = false
+candle_max_energy = 2.0
+candle_lerp_speed = 35.0
+short_max_energy = 1.5
+short_lerp_speed = 35.0
+allow_blackouts = false
+
+[node name="PointLight2D4" type="PointLight2D" parent="CosmicMainView/Sprite2D/CosmicEntityPet2"]
+position = Vector2(112.000046, 292)
+scale = Vector2(0.15111113, 0.063888915)
+color = Color(0.16470589, 1, 0, 1)
+texture = ExtResource("6_3t0bd")
+script = ExtResource("5_o0eah")
+mode = "ShortOut"
+use_current_as_base = false
+candle_max_energy = 1.5
+candle_lerp_speed = 25.0
+short_max_energy = 1.5
+short_lerp_speed = 5.0
+allow_blackouts = false
+
+[node name="PointLight2D6" type="PointLight2D" parent="CosmicMainView/Sprite2D/CosmicEntityPet2"]
+position = Vector2(198.99997, 214)
+scale = Vector2(4.2511578, 3.849315)
+texture = ExtResource("7_jqr87")
+script = ExtResource("5_o0eah")
+mode = "Pulse"
+use_current_as_base = false
+pulse_min_energy = 0.2
+pulse_max_energy = 0.5
+pulse_speed = 5.0
+
+[node name="PointLight2D" type="PointLight2D" parent="CosmicMainView"]
+light_mask = 0
+visibility_layer = 0
+position = Vector2(1539.0001, 572)
+scale = Vector2(0.36611113, 0.32924873)
+energy = 9.8
+range_item_cull_mask = 2
+texture = ExtResource("8_y3y2i")
+script = ExtResource("5_o0eah")
+mode = "ShortOut"
+use_current_as_base = false
+short_min_energy = 0.5
+short_max_energy = 2.0
+short_lerp_speed = 35.0
+allow_blackouts = false
+
+[node name="PointLight2D2" type="PointLight2D" parent="CosmicMainView"]
+light_mask = 0
+visibility_layer = 0
+position = Vector2(1279, 618.50006)
+scale = Vector2(1.4211111, 0.67833346)
+energy = 9.8
+range_item_cull_mask = 2
+texture = ExtResource("6_3t0bd")
+script = ExtResource("5_o0eah")
+use_current_as_base = false
+candle_min_energy = 0.1
+candle_max_energy = 1.0
+candle_lerp_speed = 35.0
+short_min_energy = 0.5
+short_max_energy = 2.0
+short_lerp_speed = 35.0
+allow_blackouts = false
