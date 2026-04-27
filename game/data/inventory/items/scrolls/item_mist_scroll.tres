@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://c2w6kfy3ml6cl"]
+
+[ext_resource type="Texture2D" uid="uid://gxyokqcgppmf" path="res://game/textures/item_icons/mist.png" id="1_d12yi"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="2_qihky"]
+
+[resource]
+script = ExtResource("2_qihky")
+item_icon = ExtResource("1_d12yi")
+look_text = "An old, moist scroll that says: Mist"
+open_text = "It's open."
+close_text = "It will not close."
+push_text = "The scroll pushes back.. somehow... *Shivers*"
+pull_text = "You feel a pull from the scroll. I gotta stop doing that."
+use_text = "Use on something.. not another scroll! Something else..."
+talk_text = "*Mist* it says moistly.. Ewwwwwww."
+eat_text = "Hell no!"
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"

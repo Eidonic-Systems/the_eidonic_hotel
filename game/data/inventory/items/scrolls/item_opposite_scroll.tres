@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://xibk5w5yvf56"]
+
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_5n74k"]
+[ext_resource type="Texture2D" uid="uid://11kx4xl1qvo2" path="res://game/textures/item_icons/opposite.png" id="1_q0evs"]
+
+[resource]
+script = ExtResource("1_5n74k")
+item_icon = ExtResource("1_q0evs")
+look_text = "Etisoppo :syas taht llorcs a."
+open_text = "Can't do it. Magik.. or something..."
+close_text = "Nope. That Magik stuff... demon stuff? Something fucked up anyway.."
+push_text = "It pulls you."
+pull_text = "It pushes you, you almost drop the scroll. Again, stop doing that!"
+use_text = "Use it on something!"
+talk_text = "Ris yad doog dias I :llorcs!"
+eat_text = "No way, the Opposite would probably happen and I don't want to think what that would entail!"
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"

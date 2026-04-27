@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://qet3htd21ol7"]
+
+[ext_resource type="Texture2D" uid="uid://c2rpd3xm5c1qv" path="res://game/textures/item_icons/reflection.png" id="1_e07m7"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_w0jdv"]
+
+[resource]
+script = ExtResource("1_w0jdv")
+item_icon = ExtResource("1_e07m7")
+look_text = "A scroll on wooden dowels that says: Reflection."
+open_text = "It's open."
+close_text = "No."
+push_text = "Not doing it!"
+pull_text = "Nope!"
+use_text = "Use on something!"
+talk_text = "Just.. no."
+eat_text = "Stop, not going to happen!"
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
