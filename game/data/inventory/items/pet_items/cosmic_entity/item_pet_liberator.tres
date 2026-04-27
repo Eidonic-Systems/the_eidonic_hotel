@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://dkhfm5ef53cal"]
+
+[ext_resource type="Texture2D" uid="uid://wjrtp55osvwc" path="res://game/textures/item_icons/pet_stuff_icons/pet_liberator_icon.png" id="1_07ptq"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_dl2vu"]
+
+[resource]
+script = ExtResource("1_dl2vu")
+item_icon = ExtResource("1_07ptq")
+look_text = "The Pet Liberator 3000."
+open_text = "It looks open."
+close_text = "How?"
+push_text = "Looks to delicate to Push around."
+pull_text = "No."
+use_text = "Use with?"
+talk_text = "It humms with a familiar sound."
+eat_text = "No thank you."
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
