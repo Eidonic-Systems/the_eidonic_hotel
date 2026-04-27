@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://cow144q5woxtb"]
+
+[ext_resource type="Texture2D" uid="uid://djxkrrk44jmym" path="res://game/textures/item_icons/collector_items_icons/killer_mask_icon.png" id="1_ie06v"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_n3mwd"]
+
+[resource]
+script = ExtResource("1_n3mwd")
+item_icon = ExtResource("1_ie06v")
+look_text = "Ooooooh! My favorite Maniac!"
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
