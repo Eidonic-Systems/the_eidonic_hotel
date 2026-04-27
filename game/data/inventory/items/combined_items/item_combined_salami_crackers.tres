@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://7mgaeuf7gwjt"]
+
+[ext_resource type="Texture2D" uid="uid://j5d2ry6srsh2" path="res://game/textures/item_icons/combined_icons/salami_crackers_icon.png" id="1_k2xqw"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_nodx7"]
+
+[resource]
+script = ExtResource("1_nodx7")
+item_icon = ExtResource("1_k2xqw")
+look_text = "A shit fuck stack of crackers and salami."
+open_text = "You just put it together, not going to open it."
+close_text = "It is already closed."
+push_text = "No."
+pull_text = "Nope."
+use_text = "Use on??"
+talk_text = "The salami wont respond."
+eat_text = "You eat the entire stack of crackers and salami and immediatly regret it! So dry! The meat gives some relief but you struggle to get it all down. "
+eat_flags = Array[String](["ate_crackers_salami_combined"])
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
