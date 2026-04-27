@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://ctcw7n4hlusb5"]
+
+[ext_resource type="Texture2D" uid="uid://60sje4nc7ebx" path="res://game/textures/item_icons/multitool_icon.png" id="1_jjl5n"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_xvlkc"]
+
+[resource]
+script = ExtResource("1_xvlkc")
+item_icon = ExtResource("1_jjl5n")
+look_text = "A shiney Multitool with various tools for many purposes. Nice!"
+open_text = "You fold it open and see all the tools available. Pretty much anything you ned a tool for, this will work!"
+close_text = "You fold it back up."
+push_text = "No effect."
+pull_text = "Nothing happened."
+use_text = "Use on what?"
+talk_text = "Are you okay?"
+eat_text = "You put it in your mouth.. well... that was pointless, are you hapy now?"
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"

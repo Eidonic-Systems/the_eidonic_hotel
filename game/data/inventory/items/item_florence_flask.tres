@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://b4cvwfv1dqwq7"]
+
+[ext_resource type="Texture2D" uid="uid://b0b8bev7skt2c" path="res://game/textures/item_icons/florence_flask_icon.png" id="1_0ae7h"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_u38dc"]
+
+[resource]
+script = ExtResource("1_u38dc")
+item_icon = ExtResource("1_0ae7h")
+look_text = "A Florence Flask full of an unknown liquid."
+open_text = "It's already open, no lid."
+close_text = "I would need a specific size cork."
+push_text = "The mystery liquid sloshes around."
+pull_text = "See: Push"
+use_text = "Use on?"
+talk_text = "It bubbles at you."
+eat_text = "Maybe later.."
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"

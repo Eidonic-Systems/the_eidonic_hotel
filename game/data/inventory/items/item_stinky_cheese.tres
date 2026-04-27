@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=2 format=3 uid="uid://dkvoecalmvqcq"]
+
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_ipiie"]
+
+[resource]
+script = ExtResource("1_ipiie")
+look_text = "Whew! That is some Stinky Cheese!!"
+open_text = "I'd rather not, it stinks enough as is."
+close_text = "Yup, already closed."
+push_text = "It's squishy.. ewww."
+pull_text = "Nope."
+use_text = "Use it with what?"
+talk_text = "No response from the Stinky Cheese... as expected."
+eat_text = "Hell no! "
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"

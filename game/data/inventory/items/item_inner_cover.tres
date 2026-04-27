@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://dq6pcnq2vqdo8"]
+
+[ext_resource type="Texture2D" uid="uid://d2lhsuxpq4uxm" path="res://game/textures/item_icons/Inner_Cover_Icon.png" id="1_0csi4"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="2_oxccf"]
+
+[resource]
+script = ExtResource("2_oxccf")
+item_icon = ExtResource("1_0csi4")
+look_text = "it's a weird looking, round cup, metal cover thingy? Yup, thats definetely the correct technical term! I've never seen anyting like it before.."
+open_text = "Can't open it."
+close_text = "Can't close it."
+push_text = "No."
+pull_text = "Nope."
+use_text = "Used on what though?"
+talk_text = "..."
+eat_text = "A little tough, being solid metal and all..."
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
