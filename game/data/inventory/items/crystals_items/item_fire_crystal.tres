@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=3 format=3 uid="uid://cuja0d3hlqk0v"]
+
+[ext_resource type="Texture2D" uid="uid://dbqdq3jn6008u" path="res://game/textures/item_icons/crystals_icons/fire_crystal_icon.png" id="1_dm7an"]
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="2_7m2t1"]
+
+[resource]
+script = ExtResource("2_7m2t1")
+item_icon = ExtResource("1_dm7an")
+look_text = "A glowing red Crystal thats warm to the touch."
+open_text = "Can't open it."
+close_text = "Can't close it."
+push_text = "Nothing happened."
+pull_text = "Nope."
+use_text = "On what?"
+talk_text = "No response."
+eat_text = "Can you say ring-O-fire!"
+consume_on_eat = false
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
