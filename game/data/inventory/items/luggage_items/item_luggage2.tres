@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="InventoryItemProfile" load_steps=2 format=3 uid="uid://dpa02ti8dix6a"]
+
+[ext_resource type="Script" uid="uid://k3vdcpfgjkbq" path="res://game/scripts/inventory/inventory_item_profile.gd" id="1_o4qnc"]
+
+[resource]
+script = ExtResource("1_o4qnc")
+metadata/_custom_type_script = "uid://k3vdcpfgjkbq"
