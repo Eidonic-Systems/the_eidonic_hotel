@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="PetLabStep" load_steps=3 format=3 uid="uid://dcysmaicpigla"]
+
+[ext_resource type="Script" uid="uid://detg74nr3qykx" path="res://game/scripts/rooms/pet_lab/pet_lab_step.gd" id="1_m3dlv"]
+[ext_resource type="AudioStream" uid="uid://wy32a2iu5u0b" path="res://game/audio/robots/electrocute.mp3" id="2_gjsvf"]
+
+[resource]
+script = ExtResource("1_m3dlv")
+delay_before = 1.5
+show_nodes = Array[NodePath]([NodePath("PetLabController/EidonicArm2"), NodePath("PetLabController/Electricity2"), NodePath("PetLabController/Electricity3"), NodePath("PetLabController/Electricity4"), NodePath("PetLabController/Electricity5"), NodePath("PetLabController/Electricity")])
+hide_nodes = Array[NodePath]([NodePath("PetLabController/EidonicArm")])
+crossfade_from = NodePath("PetLabController/Electricity3")
+crossfade_to = NodePath("PetLabController/Electricity5")
+sfx = ExtResource("2_gjsvf")
+metadata/_custom_type_script = "uid://detg74nr3qykx"

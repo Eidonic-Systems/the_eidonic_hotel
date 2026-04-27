@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="PetLabStep" load_steps=2 format=3 uid="uid://bcxbejkgxlnla"]
+
+[ext_resource type="Script" uid="uid://detg74nr3qykx" path="res://game/scripts/rooms/pet_lab/pet_lab_step.gd" id="1_elowq"]
+
+[resource]
+script = ExtResource("1_elowq")
+delay_before = 3.0
+hide_lights = Array[NodePath]([NodePath("PetLabController/Lighting/PointLight2D7"), NodePath("PetLabController/Lighting/PointLight2D6"), NodePath("PetLabController/Lighting/PointLight2D11"), NodePath("PetLabController/Lighting/PointLight2D10"), NodePath("PetLabController/Lighting/PointLight2D17"), NodePath("PetLabController/Lighting/PointLight2D16")])
+metadata/_custom_type_script = "uid://detg74nr3qykx"

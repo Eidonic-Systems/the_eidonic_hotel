@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PetLabStep" load_steps=3 format=3 uid="uid://shnpn0ao0un3"]
+
+[ext_resource type="Script" uid="uid://detg74nr3qykx" path="res://game/scripts/rooms/pet_lab/pet_lab_step.gd" id="1_sye02"]
+[ext_resource type="AudioStream" uid="uid://b8t1poqj0jydp" path="res://game/audio/robots/sci_fi_humming.mp3" id="2_02xyl"]
+
+[resource]
+script = ExtResource("1_sye02")
+show_nodes = Array[NodePath]([NodePath("PetLabController/EidonicArm"), NodePath("PetLabController/Cork2"), NodePath("PetLabController/Lighting")])
+hide_nodes = Array[NodePath]([NodePath("PetLabController/BrassBoxOpen"), NodePath("PetLabController/BrokenJar"), NodePath("PetLabController/BrokenJar2"), NodePath("PetLabController/EidonicArm3"), NodePath("PetLabController/Cork")])
+show_lights = Array[NodePath]([NodePath("PetLabController/Lighting/PointLight2D10"), NodePath("PetLabController/Lighting/PointLight2D11"), NodePath("PetLabController/Lighting/PointLight2D6"), NodePath("PetLabController/Lighting/PointLight2D7"), NodePath("PetLabController/Lighting/PointLight2D17"), NodePath("PetLabController/Lighting/PointLight2D16")])
+sfx = ExtResource("2_02xyl")
+metadata/_custom_type_script = "uid://detg74nr3qykx"
